@@ -13,8 +13,9 @@ runs:
     - name: Checkout OpenAssetIO-Mediacreation
       uses: actions/checkout@v3
       with:
-        repository: OpenAssetIO/OpenAssetIO-MediaCreation
+        repository: elliotcmorris/OpenAssetIO-MediaCreation
         path: openassetio-mediacreation-checkout
+        ref: work/977-remove-cpython
 
     - name: Install Traitgen
       shell: bash
